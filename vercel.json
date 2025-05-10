@@ -9,13 +9,13 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://47.238.143.12:7000/api/:path*"
+      "destination": "https://47.238.143.12:7000/api/:path*"
     }
   ],
   "env": {
-    "NEXT_PUBLIC_API_URL": "http://47.238.143.12:7000/api",
+    "NEXT_PUBLIC_API_URL": "https://47.238.143.12:7000/api",
     "NEXT_PUBLIC_SITE_NAME": "Cool Ice电商平台",
-    "NEXT_PUBLIC_SITE_URL": "http://e-commerc.coolice.top"
+    "NEXT_PUBLIC_SITE_URL": "https://e-commerc.coolice.top"
   },
   "buildCommand": "next build",
   "installCommand": "npm install"

@@ -2,7 +2,7 @@
  * API基础URL，指向后端服务
  * 在生产环境中指向已部署的后端服务
  */
-export const API_BASE_URL = 'http://47.238.143.12:7000/api';
+export const API_BASE_URL = 'https://47.238.143.12:7000/api';
 
 /**
  * API请求选项接口
