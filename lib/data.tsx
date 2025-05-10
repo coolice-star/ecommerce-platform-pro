@@ -229,18 +229,21 @@ export const users: User[] = [
     name: "管理员",
     email: "admin@example.com",
     isAdmin: true,
+    createdAt: "2023-01-01T00:00:00.000Z"
   },
   {
     id: "2",
     name: "张三",
     email: "zhangsan@example.com",
     isAdmin: false,
+    createdAt: "2023-01-15T00:00:00.000Z"
   },
   {
     id: "3",
     name: "李四",
     email: "lisi@example.com",
     isAdmin: false,
+    createdAt: "2023-02-01T00:00:00.000Z"
   },
 ]
 
